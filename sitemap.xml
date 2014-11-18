@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.mohpsych.com/</loc>
+  <lastmod>2009-11-01T23:09:37+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/index.html</loc>
+  <lastmod>2009-11-01T23:09:37+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/clinical.html</loc>
+  <lastmod>2009-11-01T23:09:35+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/forensic.html</loc>
+  <lastmod>2009-11-01T23:09:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/resume.html</loc>
+  <lastmod>2009-11-01T23:09:37+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/forms.html</loc>
+  <lastmod>2009-11-01T23:09:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/contact.html</loc>
+  <lastmod>2009-11-01T23:09:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/clinical_details.html</loc>
+  <lastmod>2009-11-01T23:09:35+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/forensic_services.html</loc>
+  <lastmod>2009-11-01T23:09:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/docs/Patient_Registration_Form.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/docs/Treatment_Policies_Fee_Agreement.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/docs/Example_Forensic_Fee_Agreement.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.mohpsych.com/docs/CV.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>

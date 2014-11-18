@@ -1,0 +1,330 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+}
+
+html, body {
+	color: #544700;
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+
+body {
+	background: #131f2e url(../images/body_bg.png) top left repeat-x;
+}
+
+a {
+	color: #544700;
+	font-weight: bold;
+}
+
+.smallText {
+	font-size: 8pt;
+}
+
+/*#wrapper {
+	position: relative;
+	border: 1px red solid;
+	margin: 0 auto -170px;
+	padding: 0;
+	width: 1024px;
+}*/
+
+#wrapper {
+	margin: 0 auto;
+	width: 1024px;
+	/*height: 100%;*/
+}
+
+#header {
+	display: block;
+	background: transparent url(../images/header_bg.png) top left no-repeat;
+	width: 1024px;
+	height: 171px;
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+#main_body {
+	background: #fff url(../images/content_top.png) top left repeat-x;
+	min-height: 500px;
+	height: 100% !important;
+	width: 1024px;
+	margin: -15px auto 0;
+	
+}
+
+#footer {
+	/*margin-top: -160px;*/
+	height: 160px;
+	display: inline-block;
+	background-color: #131f2e;
+	/*border-top: #ffe9a5 2px solid;*/
+	width: 100%;
+	color: #ffef96;
+	font-weight: bold;
+}
+
+#footer a {
+	color: #ffef96;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+#footer_wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: right;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
+address {
+	font-style: normal;
+	line-height: 2em;
+	width: 50%;
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-right: 15px;
+}
+
+#logo_link span {
+	display: none;
+}
+
+#logo_link {
+	display: block;
+	background: transparent url(../images/logo.png) top left no-repeat;
+	width: 392px;
+	height: 50px;
+}
+
+#header p {
+	padding-top: 50px;
+	display: inline-block;
+	background-color: none;
+}
+
+#slogan {
+	display: inline-block;
+	background: transparent url(../images/heart_of_pearl.png) bottom left no-repeat;
+	width: 467px;
+	height: 21px;
+	margin: 0;
+	padding: 0;
+}
+
+#portland {
+	display: inline-block;
+	background: transparent url(../images/portland_oregon.png) bottom right no-repeat;
+	width: 320px;
+	height: 21px;
+	margin: 0;
+	paddint: 0;
+}
+
+#header p span {
+	display: none;
+}
+
+#main_body p, #footer p {
+	text-align: justify;
+	margin: 25px 25px 25px 50px;
+	line-height: 1.6em;
+}
+
+#main_body p.floatTwo {
+	width: 40%;
+	float: left;
+}
+
+.floatTwo img {
+	display: inline-block;
+	float: left;	
+	border: 2px #544700 solid;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+#new_patients {
+	display: inline-block;
+	background: transparent url(../images/new_patients.png) top left no-repeat;
+	width: 100%;
+	height: 30px;
+}
+
+#new_patients strong {
+	display: none;
+}
+
+#directions span {
+	display: none;
+}
+
+#directions {
+	width: 111px;
+	height: 111px;
+	background: transparent url(../images/satellite_view.png) top left no-repeat;
+	display: inline-block;
+	float: right;
+}
+
+#copyright {
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+#copyright p {
+	display: inline;
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.7em;
+	padding: 25px;
+}
+
+h4 {
+	font-size: 1.3em;
+	padding-left: 50px;
+}
+
+.clear {
+	clear: both;
+}
+
+/***************************
+*
+*		MAIN NAVIGATION STYLE
+*
+***************************/
+
+#nav_links {
+	padding-top: 7px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#nav_links ul {
+	list-style: none;
+	margin: 0 auto;
+	display: block;
+	padding: 0;
+	margin-top: -70px;
+}
+
+#nav_links ul, #nav_links ul li {
+  list-style: none;
+}
+
+#nav_links ul li {
+	padding-left: 24px;
+	display: inline;
+	/*border: 1px #fff solid;*/
+}
+
+#nav_links a {
+	display: block;
+	margin-right: 30px;
+	float: left;
+	position: relative;
+}
+
+#nav_links a:hover {
+	border-bottom: 2px #fff solid;
+}
+
+#nav_links span {
+	display: none;
+}
+
+#nav_home {
+	display: block;
+	width: 52px;
+	height: 18px;
+	background: transparent url(../images/nav_home.png) top center no-repeat;
+}
+
+.page_home #nav_home {
+	background: transparent url(../images/nav_home_active.png) top center no-repeat;
+	border-bottom: 2px #fff solid;
+}
+
+#nav_clinical {
+	
+	width: 169px;
+	height: 18px;
+	background: transparent url(../images/nav_clinical.png) top center no-repeat;
+}
+
+.page_clinical #nav_clinical {
+	background: transparent url(../images/nav_clinical_active.png) top center no-repeat;
+	border-bottom: 2px #fff solid;
+}
+
+#nav_forensic {
+	
+	width: 173px;
+	height: 18px;
+	background: transparent url(../images/nav_forensic.png) top center no-repeat;
+}
+
+.page_forensic #nav_forensic {
+	background: transparent url(../images/nav_forensic_active.png) top center no-repeat;
+	border-bottom: 2px #fff solid;
+}
+
+#nav_resume {
+	
+	width: 72px;
+	height: 18px;
+	background: transparent url(../images/nav_resume.png) top center no-repeat;
+}
+
+.page_resume #nav_resume {
+	background: transparent url(../images/nav_resume_active.png) top center no-repeat;
+	border-bottom: 2px #fff solid;
+}
+
+#nav_forms {
+	
+	width: 58px;
+	height: 18px;
+	background: transparent url(../images/nav_forms.png) top center no-repeat;
+}
+
+.page_forms #nav_forms {
+	background: transparent url(../images/nav_forms_active.png) top center no-repeat;
+	border-bottom: 2px #fff solid;
+}
+
+#nav_contact {
+	
+	width: 78px;
+	height: 18px;
+	background: transparent url(../images/nav_contact.png) top center no-repeat;
+}
+
+.page_contact #nav_contact {
+	background: transparent url(../images/nav_contact_active.png) top center no-repeat;
+	border-bottom: 2px #fff solid;
+}
+
+/*html { height: 100%;}
+body { height: 100%;}
+
+#wrapper { position: relative; min-height: 100%;}
+* html #wrapper { height: 100%; }
+#footer { position: relative; margin-top: -7.5em; }*/
