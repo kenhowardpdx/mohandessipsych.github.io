@@ -22,6 +22,14 @@ a {
 	font-weight: bold;
 }
 
+ul {
+	padding-left: 20px;
+}
+
+ul > li {
+	padding: 5px 0;
+}
+
 .smallText {
 	font-size: 8pt;
 	text-decoration: none !important;
@@ -67,7 +75,13 @@ a {
 	min-height: 500px;
 	height: 100% !important;
 	width: 1024px;
-	margin: -15px auto 0;	
+	margin: -15px auto 0;
+}
+
+#main_body:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #footer {
@@ -155,15 +169,16 @@ a {
 	margin-left: 75px;
 }
 
-#main_body p.floatTwo {
+#main_body .floatTwo {
 	width: 40%;
 	float: left;
 	margin-right: 0;
+	padding: 15px;
 }
 
 .floatTwo img {
 	display: inline-block;
-	float: left;	
+	float: left;
 	border: 2px #544700 solid;
 	margin-right: 10px;
 	margin-bottom: 5px;
@@ -236,6 +251,7 @@ a {
 h3 {
 	font-size: 1.7em;
 	padding: 25px;
+	padding-left: 50px;
 }
 
 h4 {
@@ -264,10 +280,12 @@ h4 {
 	list-style: none;
 	display: inline-block;
 	/*margin-top: -70px;*/
+	padding: 0;
 }
 
 #nav_links ul, #nav_links ul li {
   list-style: none;
+  padding: 0;
 }
 
 #nav_links ul li {
@@ -380,7 +398,6 @@ h4 {
 	width: 200px;
 	font-size: .74em;
 	text-align: left;
-	margin-bottom: 50px;
 }
 
 .left img {
