@@ -420,9 +420,7 @@ h4 {
 	float: left;
 	margin: 0 15px 15px 0;
 }
-/*html { height: 100%;}
-body { height: 100%;}
 
-#wrapper { position: relative; min-height: 100%;}
-* html #wrapper { height: 100%; }
-#footer { position: relative; margin-top: -7.5em; }*/
+.no-border {
+	border: none!important;
+}
