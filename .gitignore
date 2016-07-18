@@ -71,3 +71,4 @@ build/
 .rvmrc
 
 .jekyll*
+node_modules

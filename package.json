@@ -1,0 +1,32 @@
+{
+  "name": "mohpsych",
+  "version": "1.0.0",
+  "description": "Dr. Soroush Mohandessi's Website ================================",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohandessipsych/mohandessipsych.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohandessipsych/mohandessipsych.github.io/issues"
+  },
+  "homepage": "https://github.com/mohandessipsych/mohandessipsych.github.io#readme",
+  "devDependencies": {
+    "foundation-sites": "^6.2.3",
+    "motion-ui": "^1.2.2",
+    "script-loader": "^0.7.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1"
+  }
+}

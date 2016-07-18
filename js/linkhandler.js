@@ -1,3 +1,4 @@
-$(document).ready(function(){
-	$("a[rel='external']").attr('target','_blank');
-});
+'use strict';
+$('a').filter(function () {
+    return this.hostname && this.hostname !== location.hostname;
+}).attr("target", "_blank");
