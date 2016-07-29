@@ -1,7 +1,7 @@
 {
   "name": "mohpsych",
   "version": "1.0.0",
-  "description": "Dr. Soroush Mohandessi's Website ================================",
+  "description": "Website for Mohandessi Psych, LLC - Dr. Soroush Mohandessi, M.D., F.A.P.A. ================================",
   "main": "index.js",
   "directories": {
     "doc": "docs"

@@ -1,6 +1,6 @@
 # Site settings
 title: "Mohandessi Psych"
-description: "Located in Downtown Portland, Oregon. Dr. Mohandessi is available for clinical and forensic psychiatry services."
+description: "Located in Downtown Portland, Oregon. Dr. Soroush Mohandessi, M.D., F.A.P.A. is available for clinical and forensic psychiatry services."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.mohpsych.com" # the base hostname & protocol for your site
 
