@@ -3,6 +3,9 @@
 
 @include foundation-everything;
 
+$moh-primary-color: rgb(0, 200, 255);
+$moh-secondary-color: rgb(150, 255, 150);
+
 figure {
     &.float-left {
         margin-left: 0;
@@ -12,5 +15,66 @@ figure {
     }
     &.float-left,&.float-right {
         margin-bottom: $thumbnail-margin-bottom;
+    }
+}
+
+header {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+    .nav-row {
+        background-color: $light-gray;
+        .menu > li > a {
+            color: darken($moh-primary-color, 20%);
+            border-right: 1px solid darken($light-gray, 5%);
+        }
+        .menu > li:first-child > a {
+            border-left: 1px solid darken($light-gray, 5%);
+        }
+    }
+}
+
+footer {
+    font-size: .8em;
+    background-color: $moh-secondary-color;
+    border-top: 3px solid $moh-primary-color;
+    padding-top: 1rem;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main-content {
+    padding-top: 1rem;
+    min-height: 500px;
+}
+
+.masthead {
+    .brand {
+        margin: 20px auto;
+        text-align: center;
+        color: #fff;
+        font-size: .3rem;
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.callout {
+    .heading {
+        margin: -1rem -1rem 1rem -1rem;
+        padding: .5rem 1rem;
+        background-color: $moh-primary-color;
+        color: #fff;
+    }
+}
+
+.form-list {
+    list-style-image: url('/images/pdf.gif');
+    li {
+        margin: .4rem 0;
     }
 }
